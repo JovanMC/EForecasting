@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#088ECA">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:id="@+id/relativeLayout"
+        android:layout_centerVertical="true"
+        tools:ignore="UnknownId">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_barang"
+        android:id="@+id/txt1"
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:elevation="4dp"
+        android:textSize="14sp"
+
+        android:id="@+id/namabarang"
+        android:background="@drawable/radius"
+        android:layout_below="@+id/txt1"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satuan_barang"
+        android:id="@+id/txt2"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/namabarang"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:elevation="4dp"
+        android:textSize="14sp"
+        android:id="@+id/satuanbarang"
+        android:background="@drawable/radius"
+        android:layout_below="@+id/txt2"
+        android:hint="@string/contoh_pcs_lembar_kotak" />
+
+
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn4"
+            android:text="@string/lanjutkan"
+            android:background="@drawable/radius"
+            android:textColor="#088ECA"
+            android:elevation="4dp"
+            android:layout_below="@id/satuanbarang"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">E-Forecasting</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="satuan_barang">Satuan Barang</string>
+    <string name="contoh_pcs_lembar_kotak">Contoh: Pcs/Lembar/Kotak</string>
+    <string name="_6_bulan">6 Bulan</string>
+    <string name="banyak_data">Banyak Data</string>
+    <string name="_12_bulan">12 Bulan</string>
+    <string name="_9_bulan">9 Bulan</string>
+    <string name="catatan_banyak_data_berdasarkan_laporan_data_beberapa_bulan_terakhir">Catatan : Banyak data berdasarkan laporan data beberapa bulan terakhir.</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="silahkan_masukan_laporan_stok_barang">Silahkan masukan laporan stok barang</string>
+    <string name="bulan_1">Bulan 1</string>
+    <string name="bulan_2">Bulan 2</string>
+    <string name="bulan_3">Bulan 3</string>
+    <string name="bulan_4">Bulan 4</string>
+    <string name="bulan_5">Bulan 5</string>
+    <string name="bulan_6">Bulan 6</string>
+    <string name="bulan_7">Bulan 7</string>
+    <string name="bulan_8">Bulan 8</string>
+    <string name="bulan_9">Bulan 9</string>
+    <string name="bulan_10">Bulan 10</string>
+    <string name="bulan_11">Bulan 11</string>
+    <string name="bulan_12">Bulan 12</string>
+    <string name="proses">Proses</string>
+    <string name="todo">TODO</string>
+    <string name="ramalan_stok_barang_untuk_bulan_berikutnya_adalah">Ramalan Stok Barang untuk bulan berikutnya adalah</string>
+    <string name="ulang">Ulang</string>
+    <string name="keluar">Keluar</string>
+</resources>
